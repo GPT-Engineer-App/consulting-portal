@@ -14,7 +14,7 @@ const Index = () => {
       {/* Navigation */}
       <Box as="nav" bg="white" boxShadow="md" py={4} px={8} position="fixed" top={0} left={0} right={0} zIndex={1}>
         <Flex align="center" justify="space-between">
-          <Heading as="h1" size="lg" color="blue.600">
+          <Heading as="h1" size="lg" color="brand.800">
             Product Consulting
           </Heading>
           <Box display={{ base: "block", md: "none" }} onClick={toggleMenu}>
@@ -39,7 +39,7 @@ const Index = () => {
           <Text fontSize="xl" maxW="2xl" mx="auto">
             We are a leading product consulting firm dedicated to helping businesses create successful products that drive growth and customer satisfaction.
           </Text>
-          <Button colorScheme="blue" size="lg">
+          <Button colorScheme="brand" size="lg">
             Get Started
           </Button>
         </VStack>
@@ -120,15 +120,15 @@ const Index = () => {
             </Heading>
             <VStack align="start" spacing={4}>
               <HStack>
-                <Icon as={FaEnvelope} color="blue.500" />
+                <Icon as={FaEnvelope} color="brand.700" />
                 <Text>info@productconsulting.com</Text>
               </HStack>
               <HStack>
-                <Icon as={FaPhone} color="blue.500" />
+                <Icon as={FaPhone} color="brand.700" />
                 <Text>+1 123-456-7890</Text>
               </HStack>
               <HStack>
-                <Icon as={FaMapMarkerAlt} color="blue.500" />
+                <Icon as={FaMapMarkerAlt} color="brand.700" />
                 <Text>123 Main St, City, Country</Text>
               </HStack>
             </VStack>
@@ -147,7 +147,7 @@ const Index = () => {
                 <FormLabel>Message</FormLabel>
                 <Textarea placeholder="Your Message" />
               </FormControl>
-              <Button type="submit" colorScheme="blue">
+              <Button type="submit" colorScheme="brand">
                 Send Message
               </Button>
             </form>
